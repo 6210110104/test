@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 // Pages
 import Home from "./Page/Home";
 import Reserve from "./Page/Reserve";
+import Status from "./Page/Status";
 
 import FirstPage from "./FirstPage";
 import Input from "./Input";
@@ -26,7 +27,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/reserve" element={<Reserve />} />
-        <Route path="/src/Input" element={<Input />} />
+        <Route path="/status" element={<Status />} />
+        <Route path="/Input" element={<Input />} />
       </Routes>
     </BrowserRouter>
   );
