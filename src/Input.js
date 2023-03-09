@@ -11,7 +11,7 @@ return(
         <div className="Input__header">Login</div>
         <input className="Input__username" type="text" onChange={(e)=>handleInputUserName(e)}/>
         <input className="Input__password" type="text" />
-        <input type="submit" value="Login"></input>
+        <input className="Login" type="submit" value="เข้าสู่ระบบ" />
     </div>
 
 )
