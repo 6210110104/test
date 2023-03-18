@@ -9,6 +9,9 @@ import Status from "./Page/Status";
 
 import FirstPage from "./FirstPage";
 import Input from "./Input";
+import Date from "./Component/Date";
+import Detail from "./Component/Detail";
+
 
 let id = 1;
 
@@ -20,6 +23,7 @@ function App() {
     const newUsername = { id, title };
     setPassword([newUsername, ...username]);
     id += 1;
+
   }
   return (
     <BrowserRouter>
@@ -32,6 +36,7 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
+  
 }
 
 export default App;

@@ -2,6 +2,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import Detail from "../Component/Detail";
+import Date from "../Component/Date";
+
 function Reserve() {
   return (
     <div className="Reserve">
@@ -24,6 +27,12 @@ function Reserve() {
         <header>
         จองห้องเรียน
       </header>
+      <div>
+        <Date />
+      </div>
+      <div>
+        <Detail />
+      </div>
     </div>
   );
 }
