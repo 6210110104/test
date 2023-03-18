@@ -2,29 +2,29 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-function Status() {
+function Status(){
   return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/home">หน้าแรก</Link>
-          </li>
-          <li>
-            <Link to="/reserve">จองห้อง</Link>
-          </li>
-          <li>
-            <Link to="/">สถานะการจอง</Link>
-          </li>
-          <li>
-            <Link to="/Input">ออกจากระบบ</Link>
-          </li>
-        </ul>
-      </nav>
-      <h1>บันทึกจองห้องเรียน</h1>
-      <h1> รายการการจองห้องเรียนของท่าน </h1>
-    </div>
-  );
+      <div className="Status">
+        <nav>
+      <ul>
+        <li>
+          <Link to="/Input">Logout</Link>
+        </li>
+        <li>
+          <Link to="/status">Status</Link>
+        </li>
+        <li>
+        <Link to="/reserve">Reserve</Link>
+        </li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+      </ul>
+      <p>บันทึกจองห้องเรียน</p>
+    </nav>
+      </div>
+  )
+
 }
 
 export default Status;

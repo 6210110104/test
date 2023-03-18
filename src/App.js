@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import "./Home.css";
+import "./Status.css";
 //router
 import { BrowserRouter, Routes, Route,Link } from "react-router-dom";
 // Pages
@@ -7,10 +9,8 @@ import Home from "./Page/Home";
 import Reserve from "./Page/Reserve";
 import Status from "./Page/Status";
 
-import FirstPage from "./FirstPage";
 import Input from "./Input";
-import Date from "./Component/Date";
-import Detail from "./Component/Detail";
+
 
 
 let id = 1;
